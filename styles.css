@@ -483,6 +483,7 @@ body {
   margin: 12px 641px;
   gap: 36px;
 }
+
 .canopy {
   width: 75px;
   height: 24px;
@@ -601,6 +602,7 @@ body {
   order: 2;
   flex-grow: 0;
   margin: 24px 0.05px;
+  gap: 10px;
 }
 
 .htm {
@@ -701,12 +703,6 @@ button:enabled {
   color: #6d7bf8;
 }
 
-button:active {
-  background: #6070ff;
-  color: white;
-  border: 100px;
-}
-
 .works_card2 {
   display: grid;
   grid-template-columns: 20px max-content;
@@ -716,8 +712,6 @@ button:active {
   top: 1582px;
   left: 81px;
   background: #fff;
-  /* Neutrals/N40 */
-
   border: 1px solid #dfe1e6;
   border-radius: 24px;
 }
@@ -731,9 +725,9 @@ button:active {
   height: 448px;
   left: 590px;
   top: 24px;
-
   border-radius: 8px;
 }
+
 .work-details1 {
   display: flex;
   flex-direction: column;
@@ -881,10 +875,10 @@ button:active {
   flex-direction: row;
   position: absolute;
   width: 333px;
-  gap: 5px;
   list-style: none;
   top: 285px;
   left: 23px;
+  gap: 10px;
 }
 
 .htm1 {
@@ -1023,4 +1017,217 @@ button:active {
   background: #6070ff;
   color: white;
   border: 100px;
+}
+
+.works_card3 {
+  display: grid;
+  grid-template-columns: 20px max-content;
+  position: absolute;
+  width: 1156px;
+  height: 496px;
+  top: 2152px;
+  left: 81px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+}
+
+.work_img3 {
+  background: url("src-image/Snapshoot-Portfolio2.png");
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 544px;
+  height: 448px;
+  left: 24px;
+  top: 24px;
+  border-radius: 8px;
+}
+
+.work_name4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.09px;
+  position: absolute;
+  width: 297px;
+  height: 40px;
+  left: -28px;
+  top: 114px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 641px;
+  gap: 55px;
+}
+
+.button_lang3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 203px;
+  height: 24px;
+  left: 611px;
+  top: 257px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24px 0.05px;
+  gap: 10px;
+}
+
+.see-project3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  padding: 12px;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: 610px;
+  top: 319px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.works_card4 {
+  display: grid;
+  grid-template-columns: 20px max-content;
+  position: absolute;
+  width: 1156px;
+  height: 496px;
+  top: 2738px;
+  left: 81px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+}
+
+.work_img5 {
+  background: url("src-image/Snapshoot-Portfolio4.png");
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 544px;
+  height: 448px;
+  left: 590px;
+  top: 24px;
+
+  border-radius: 8px;
+}
+
+.button_lang4 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 333px;
+  list-style: none;
+  top: 309px;
+  left: 23px;
+  gap: 10px;
+}
+
+.see-project4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  background: white;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: 21px;
+  top: 345px;
+
+  /* Primary/B400 */
+
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.canopy4 {
+  width: 55px;
+  height: 16px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.dev4 {
+  position: static;
+  width: 108px;
+  height: 16px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N100 */
+
+  color: #7a869a;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.year4 {
+  position: static;
+  width: 29px;
+  height: 16px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N100 */
+
+  color: #7a869a;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.see-project1:hover {
+  background: rgb(150, 135, 247);
+  color: white;
+}
+
+.see-project3,
+button:disabled {
+  cursor: not-allowed;
 }
