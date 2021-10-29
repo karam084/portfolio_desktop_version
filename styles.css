@@ -1959,24 +1959,4 @@ input[type="submit"]:active {
     background: #eee;
     height: 100%;
   }
-
-  @media only screen and (max-device-width: 480px) {
-    div#wrapper {
-      width: 400px;
-    }
-  }
-}
-
-.works_card,
-.works_card2,
-.works_card3,
-.works_card4 {
-  transition: all 0.2s ease-in-out;
-}
-
-.works_card:hover,
-.works_card2:hover,
-.works_card3:hover,
-.works_card4:hover {
-  transform: scale(1.1);
 }
