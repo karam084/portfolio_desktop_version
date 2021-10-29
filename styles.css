@@ -475,8 +475,8 @@ body {
   position: absolute;
   width: 297px;
   height: 40px;
-  left: -28px;
-  top: 114px;
+  left: -34px;
+  top: 60px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -585,7 +585,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 172px;
+  margin-top: 120px;
   margin-left: 595px;
 }
 
@@ -597,7 +597,7 @@ body {
   width: 203px;
   height: 24px;
   left: 611px;
-  top: 235px;
+  top: 189px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -693,7 +693,7 @@ body {
   width: 124px;
   height: 48px;
   left: 610px;
-  top: 291px;
+  top: 264px;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -1053,7 +1053,7 @@ button:active {
   width: 297px;
   height: 40px;
   left: -28px;
-  top: 114px;
+  top: 59px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1069,7 +1069,7 @@ button:active {
   width: 203px;
   height: 24px;
   left: 611px;
-  top: 257px;
+  top: 205px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -1087,7 +1087,7 @@ button:active {
   width: 124px;
   height: 48px;
   left: 610px;
-  top: 319px;
+  top: 278px;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -1450,7 +1450,7 @@ button:disabled {
   /* Vector */
 
   position: absolute;
-  margin-left: 30em;
+  margin-left: 65em;
   margin-top: 0.05px;
 }
 
@@ -1619,38 +1619,6 @@ button:disabled {
   align-content: flex-start;
 }
 
-.about-me {
-  position: static;
-  width: 327px;
-  height: 101px;
-  left: 0.05px;
-  top: 0.05px;
-
-  /* Header / 2 */
-
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-
-  /* or 130% */
-
-  display: flex;
-  align-items: center;
-
-  /* Neutrals/N800 */
-
-  color: #172b4d;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 55px 22px;
-}
-
 .contact-form {
   display: grid;
   grid-template-columns: 20px max-content;
@@ -1679,7 +1647,7 @@ button:disabled {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1880,14 +1848,6 @@ input[type="submit"]:active {
   top: 702px;
 }
 
-@media screen and (min-width: 1300px) {
-  .header-con,
-  ul .nav-title {
-    margin-right: 3.317535545023696682%;
-    width: 13.902053712480252764%;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   body {
     background: green;
@@ -1924,8 +1884,7 @@ input[type="submit"]:active {
   .shape9,
   .shape10,
   .shape11,
-  .shape12,
-  .shape3 {
+  .shape12 {
     display: none;
   }
 }
@@ -1949,7 +1908,7 @@ input[type="submit"]:active {
   p,
   ul,
   li {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
@@ -1963,23 +1922,47 @@ input[type="submit"]:active {
   }
 }
 
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    article {
+      display: flex;
+    }
+  }
+}
+
+@media (any-hover: hover) {
+  a:hover {
+    background: blueviolet;
+  }
+}
+
+@media (min-color: 8) {
+  p {
+    color: red;
+  }
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  h3 {
+    font-size: 5px;
+  }
 }
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  p {
+    font-size: 5px;
+  }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-}
+@media (min-width: 600px) {
+  html {
+    background: #eee;
+    height: 100%;
+  }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-}
-
-@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
-}
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-}
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  @media only screen and (max-device-width: 480px) {
+    div#wrapper {
+      width: 400px;
+    }
+  }
 }
