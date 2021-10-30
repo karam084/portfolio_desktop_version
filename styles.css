@@ -751,8 +751,8 @@ button:active {
   flex-grow: 0;
   margin: 1px 0.05px;
   list-style: none;
-  margin-top: 180px;
-  margin-left: -55px;
+  margin-top: -11px;
+  margin-left: 1px;
   padding-top: 10px;
 }
 
@@ -1610,12 +1610,14 @@ input[type="submit"]:active {
     left: 12px;
     top: 10px;
   }
+
   .content-name {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
+
   .my_name {
     width: 920px;
     height: 122px;
@@ -1623,6 +1625,7 @@ input[type="submit"]:active {
     top: 0.05px;
     margin: 250px 0.05px 12px 158.5px;
   }
+
   .my_details {
     display: flex;
     flex-direction: column;
@@ -1632,6 +1635,7 @@ input[type="submit"]:active {
     top: 112px;
     margin: 1px 156.05px;
   }
+
   .more_det {
     display: flex;
     flex-direction: row;
@@ -1642,6 +1646,7 @@ input[type="submit"]:active {
     top: 623px;
     margin: 0.05px 155px;
   }
+
   .media_icon {
     display: flex;
     flex-direction: row;
@@ -1650,12 +1655,14 @@ input[type="submit"]:active {
     list-style: none;
     gap: 15px;
   }
+
   .shape {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
   }
+
   .shape1 {
     background-image: url("shapes-icons/Rectangle4.svg");
     background-repeat: no-repeat;
@@ -1810,9 +1817,31 @@ input[type="submit"]:active {
     border-radius: 8px;
     background-repeat: no-repeat;
   }
-  .work-details {
+
+  #karam1 {
     display: flex;
     flex-direction: row;
+  }
+
+  #karam2 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 64px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 1px 0.05px;
+    list-style: none;
+    margin-top: -39px;
+    margin-left: -32px;
+    padding-top: 10px;
   }
 
   .work_name {
@@ -1825,6 +1854,7 @@ input[type="submit"]:active {
     margin-left: 538px;
     top: 1036px;
   }
+
   .work_name2 {
     display: flex;
     flex-direction: row;
@@ -1834,7 +1864,7 @@ input[type="submit"]:active {
     width: 297px;
     height: 40px;
     left: 4px;
-    top: 143px;
+    top: 115px;
     margin: 12px 20px;
     gap: 36px;
   }
@@ -1907,6 +1937,7 @@ input[type="submit"]:active {
     top: 1582px;
     left: 63px;
   }
+
   .work_img2 {
     background: url("src-image1/Snapshoot-Portfolio1.png");
     display: flex;
@@ -1925,25 +1956,15 @@ input[type="submit"]:active {
     list-style: none;
   }
 
-  .work_name1 h3 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 496px;
-    height: 46px;
-    left: 25px;
-    top: 46.05px;
-  }
-
   .work_name3 {
     display: flex;
     flex-direction: row;
     height: 40px;
-    margin-top: 17px;
     list-style-type: circle;
     gap: 30px;
     padding-left: 10px;
     margin: 12px 0.05px;
+    margin-top: 17px;
   }
 
   .work_name3 {
@@ -1963,8 +1984,9 @@ input[type="submit"]:active {
     width: 496px;
     height: 50px;
     left: 48px;
-    top: 197px;
+    top: 173px;
   }
+
   .ruby {
     display: flex;
     flex-direction: row;
@@ -2031,6 +2053,7 @@ input[type="submit"]:active {
     left: 607px;
     top: 124px;
   }
+
   #work_name4 {
     display: flex;
     flex-direction: row;
@@ -2053,6 +2076,7 @@ input[type="submit"]:active {
     left: 611px;
     top: 288px;
   }
+
   #see-project3 {
     display: flex;
     flex-direction: row;
@@ -2065,6 +2089,7 @@ input[type="submit"]:active {
     left: 610px;
     top: 319px;
   }
+
   #works_card4 {
     display: grid;
     grid-template-columns: 20px max-content;
@@ -2742,7 +2767,7 @@ input[type="submit"]:active {
   }
 
   .form-shape {
-    background-image: url("src-image/Ellipse3.svg");
+    background-image: url("Ellipse3.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 137px;
@@ -2752,7 +2777,7 @@ input[type="submit"]:active {
   }
 
   .form-shape1 {
-    background-image: url("src-image/Rectangle4.svg");
+    background-image: url("Rectangle4.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 114px;
@@ -2762,7 +2787,7 @@ input[type="submit"]:active {
   }
 
   .form-shape2 {
-    background-image: url("src-image/Ellipse12.svg");
+    background-image: url("Ellipse12.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 65px;
@@ -2772,7 +2797,7 @@ input[type="submit"]:active {
   }
 
   .form-shape3 {
-    background-image: url("src-image/Rectangle7.svg");
+    background-image: url("Rectangle7.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 110px;
@@ -2782,7 +2807,7 @@ input[type="submit"]:active {
   }
 
   .form-shape4 {
-    background-image: url("src-image/Ellipse5.svg");
+    background-image: url("Ellipse5.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 70px;
@@ -2792,7 +2817,7 @@ input[type="submit"]:active {
   }
 
   .form-shape5 {
-    background-image: url("src-image/Ellipse13.svg");
+    background-image: url("Ellipse13.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 75px;
@@ -2802,7 +2827,7 @@ input[type="submit"]:active {
   }
 
   .form-shape6 {
-    background-image: url("src-image/Ellipse11.svg");
+    background-image: url("Ellipse11.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 75px;
@@ -2812,7 +2837,7 @@ input[type="submit"]:active {
   }
 
   .form-shape7 {
-    background-image: url("src-image/Rectangle6.svg");
+    background-image: url("Rectangle6.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 75px;
@@ -2820,11 +2845,12 @@ input[type="submit"]:active {
     left: 330px;
     top: 702px;
   }
+
   #text9 {
     width: 295px;
     height: 76px;
-    top: 223px;
-    left: 28px;
+    top: 147px;
+    left: 30px;
 
     /* Body / 3 */
 
@@ -2846,6 +2872,7 @@ input[type="submit"]:active {
     margin-top: 1px;
     margin-left: -9px;
   }
+
   #my-dett {
     display: flex;
     flex-direction: column;
