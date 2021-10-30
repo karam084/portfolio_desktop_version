@@ -224,12 +224,14 @@ body {
   list-style: none;
   gap: 15px;
 }
+
 .shape {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .shape1 {
   background-image: url("shapes-icons/Rectangle4.svg");
   background-repeat: no-repeat;
@@ -1050,6 +1052,7 @@ button:active {
   order: 1;
   flex-grow: 0;
 }
+
 .work_name4 {
   display: flex;
   flex-direction: row;
@@ -1880,10 +1883,6 @@ input[type="submit"]:active {
 
   article {
     font-size: 20px;
-  }
-
-  .cont {
-    flex-flow: row;
   }
 
   .works_card {
