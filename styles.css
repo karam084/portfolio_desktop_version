@@ -751,7 +751,7 @@ button:active {
   flex-grow: 0;
   margin: 1px 0.05px;
   list-style: none;
-  margin-top: -11px;
+  margin-top: 178px;
   margin-left: 1px;
   padding-top: 10px;
 }
@@ -1967,7 +1967,7 @@ input[type="submit"]:active {
     margin-top: 17px;
   }
 
-  .work_name3 {
+  #karam3 {
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -2029,7 +2029,7 @@ input[type="submit"]:active {
     width: 496px;
     height: 46px;
     left: 587px;
-    top: -140px;
+    top: 1px;
   }
 
   .work_img3 {
