@@ -1,10 +1,10 @@
 ![](https://github.com/karam084/My_Portfolio_WebSite-)
 
-# Portfolio
+# Portfolio Mobile version
 
 > This is the personal Portfolio of Karam Fouad - Web Developer
 
-![screenshot](.\Microverse Projects\Portfolio\screenshot\screenshot.docx)
+![screenshot](.\Microverse Projects\portfolio mobile version\screenshot\screenshot.docx)
 
 Additional description about the project and its features.
 
@@ -31,4 +31,4 @@ This project is [MIT](./MIT.md) licensed.
 =======
 👤 **Author**
 
-- GitHub: [@karam084](https://github.com/karam084/Hello_Microverse1)
+- GitHub: [@karam084](https://github.com/karam084/portfolio-mobile-version)
