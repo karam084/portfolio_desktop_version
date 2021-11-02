@@ -751,9 +751,9 @@ button:active {
   flex-grow: 0;
   margin: 1px 0.05px;
   list-style: none;
-  margin-top: 178px;
+  margin-top: 1px;
   margin-left: 1px;
-  padding-top: 10px;
+  padding-top: 193px;
 }
 
 .button_lang1 {
@@ -776,9 +776,6 @@ button:active {
   font-size: 24px;
   line-height: 36px;
   color: #172b4d;
-
-  /* Inside Auto Layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -787,6 +784,28 @@ button:active {
   margin-top: 180px;
   margin-left: -55px;
   padding-top: 10px;
+}
+.work_name6 {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 1px 0.05px;
+  list-style: none;
+  margin-top: -14px;
+  margin-left: -15px;
+  padding-top: 10px;
+  padding-bottom: 51px;
+  gap: 5px;
 }
 
 .work_img3 {
@@ -1964,14 +1983,14 @@ input[type="submit"]:active {
     gap: 30px;
     padding-left: 10px;
     margin: 12px 0.05px;
-    margin-top: 17px;
+    margin-top: 23px;
   }
 
   #karam3 {
     display: flex;
     flex-direction: row;
     height: 40px;
-    margin-top: 142px;
+    margin-top: 1px;
     list-style-type: circle;
     gap: 30px;
     padding-left: 10px;
@@ -2891,5 +2910,25 @@ input[type="submit"]:active {
     height: 50px;
     left: 668px;
     top: 1145px;
+  }
+
+  #karam3 {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding-top: 10px;
+  }
+
+  #karam7 {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    margin-top: 123px;
+    margin-left: 1px;
+    padding-top: 10px;
   }
 }
