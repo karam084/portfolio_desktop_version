@@ -785,6 +785,7 @@ button:active {
   margin-left: -55px;
   padding-top: 10px;
 }
+
 .work_name6 {
   display: flex;
   flex-direction: row;
@@ -1984,16 +1985,6 @@ input[type="submit"]:active {
     padding-left: 10px;
     margin: 12px 0.05px;
     margin-top: 23px;
-  }
-
-  #karam3 {
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    margin-top: 1px;
-    list-style-type: circle;
-    gap: 30px;
-    padding-left: 10px;
   }
 
   .text_det1 {
