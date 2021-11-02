@@ -2,9 +2,11 @@
 
 # Project Name
 
+portfolio-application-deploy
+
 > One paragraph statement about the project.
 
-![screenshot](screenshot/screenshot.odt)
+![screenshot](/home/kezz/karam/Microverse Projects/desktop_version/screenshot/screenshot.odt)
 
 Additional description about the project and its features.
 
