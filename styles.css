@@ -751,9 +751,9 @@ button:active {
   flex-grow: 0;
   margin: 1px 0.05px;
   list-style: none;
-  margin-top: 178px;
+  margin-top: 1px;
   margin-left: 1px;
-  padding-top: 10px;
+  padding-top: 193px;
 }
 
 .button_lang1 {
@@ -776,9 +776,6 @@ button:active {
   font-size: 24px;
   line-height: 36px;
   color: #172b4d;
-
-  /* Inside Auto Layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -787,6 +784,29 @@ button:active {
   margin-top: 180px;
   margin-left: -55px;
   padding-top: 10px;
+}
+
+.work_name6 {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 1px 0.05px;
+  list-style: none;
+  margin-top: -14px;
+  margin-left: -15px;
+  padding-top: 10px;
+  padding-bottom: 51px;
+  gap: 5px;
 }
 
 .work_img3 {
@@ -1556,7 +1576,7 @@ input[type="submit"]:active {
 
 @media (min-width: 1000px) {
   body {
-    width: 1000px;
+    width: 100%;
   }
 
   .cont {
@@ -1566,6 +1586,14 @@ input[type="submit"]:active {
     height: 900px;
     gap: 1rem;
     top: 1px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(223, 225, 230);
+    border-left: 1px solid rgb(223, 225, 230);
+    border-image: initial;
+    box-sizing: border-box;
+    border-bottom-left-radius: 70px;
+    border-right: none;
+    border-top: none;
   }
 
   .header-con {
@@ -1574,7 +1602,7 @@ input[type="submit"]:active {
     flex-direction: column;
   }
 
-  .title_lo {
+  .ltitle_lo {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1584,16 +1612,41 @@ input[type="submit"]:active {
     width: 53%;
     margin-left: 134px;
     margin-top: 35px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Primary/B400 */
+
+    color: #6070ff;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
   }
 
-  .humb {
+  .logo:hover {
+    color: rgb(113, 106, 121);
+  }
+
+  .nav-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: absolute;
-    left: 686px;
-    top: -100px;
+    left: 1209px;
+    top: 81px;
     list-style: none;
+    gap: 10px;
+    color: #344563;
   }
 
   .vector1 {
@@ -1667,20 +1720,20 @@ input[type="submit"]:active {
     background-image: url("shapes-icons/Rectangle4.svg");
     background-repeat: no-repeat;
     position: absolute;
-    width: 204px;
-    height: 143px;
-    left: 940px;
-    top: 151px;
+    width: 95px;
+    height: 92px;
+    left: 1329px;
+    top: 243px;
   }
 
   .shape2 {
     background-image: url("shapes-icons/Ellipse3.svg");
     background-repeat: no-repeat;
     position: absolute;
-    width: 224px;
-    height: 224px;
-    left: 962px;
-    top: 192px;
+    width: 236px;
+    height: 292px;
+    left: 1354px;
+    top: 278px;
   }
 
   .shape3 {
@@ -1700,8 +1753,8 @@ input[type="submit"]:active {
     position: absolute;
     width: 23px;
     height: 23px;
-    left: 930px;
-    top: 157px;
+    left: 558px;
+    top: 242px;
   }
 
   .shape5 {
@@ -1935,7 +1988,7 @@ input[type="submit"]:active {
     width: 1156px;
     height: 496px;
     top: 1582px;
-    left: 63px;
+    left: 39px;
   }
 
   .work_img2 {
@@ -1964,17 +2017,7 @@ input[type="submit"]:active {
     gap: 30px;
     padding-left: 10px;
     margin: 12px 0.05px;
-    margin-top: 17px;
-  }
-
-  #karam3 {
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    margin-top: 142px;
-    list-style-type: circle;
-    gap: 30px;
-    padding-left: 10px;
+    margin-top: 23px;
   }
 
   .text_det1 {
@@ -2016,7 +2059,7 @@ input[type="submit"]:active {
     display: grid;
     grid-template-columns: 20px max-content;
     position: absolute;
-    width: 1189px;
+    width: 1160px;
     height: 510px;
     top: 2143px;
     left: 2px;
@@ -2094,12 +2137,12 @@ input[type="submit"]:active {
     display: grid;
     grid-template-columns: 20px max-content;
     position: absolute;
-    width: 1156px;
+    width: 1162px;
     height: 496px;
     top: 2738px;
-    left: 63px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
+    left: 39px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(223, 225, 230);
     border-radius: 24px;
   }
 
@@ -2249,7 +2292,7 @@ input[type="submit"]:active {
     position: absolute;
     width: 447px;
     height: 114px;
-    left: 94px;
+    left: 36px;
     top: 88px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -2891,6 +2934,26 @@ input[type="submit"]:active {
     height: 50px;
     left: 668px;
     top: 1145px;
+  }
+
+  #karam3 {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding-top: 10px;
+  }
+
+  #karam7 {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    margin-top: 123px;
+    margin-left: 1px;
+    padding-top: 10px;
   }
 }
 
