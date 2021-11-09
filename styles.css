@@ -13,6 +13,7 @@ body {
   background: #e5e5e5;
   margin: 0;
 }
+
 .header-con {
   display: flex;
   justify-content: space-around;
@@ -113,6 +114,7 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
 .project-details {
   font-family: "PoppinsLight", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
@@ -354,10 +356,6 @@ ul.sub-list {
   margin-top: 10px;
 }
 
-.hide-hamburger {
-  display: none !important;
-}
-
 .mobile-menu-items a {
   display: flex;
   font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
@@ -368,6 +366,10 @@ ul.sub-list {
   font-size: 32px;
   line-height: 20px;
   margin-bottom: 32px;
+}
+
+.hide-hamburger {
+  display: none !important;
 }
 
 .mobile-menu-items a:link {
@@ -383,8 +385,6 @@ ul.sub-list {
 }
 
 @media (min-width: 600px) {
-  /* Desktop CSS goes in here */
-
   .menu-overlay {
     display: none;
   }
