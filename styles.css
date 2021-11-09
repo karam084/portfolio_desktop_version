@@ -1554,6 +1554,13 @@ input[type="submit"]:active {
   top: 757px;
 }
 
+.menu-close {
+  margin-left: 241px;
+  margin-top: -22px;
+  font-size: 55px;
+  list-style: none;
+}
+
 @media (min-width: 1000px) {
   body {
     width: 1000px;
