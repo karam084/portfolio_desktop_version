@@ -389,6 +389,39 @@ ul.sub-list {
     display: none;
   }
 
+  .header-con {
+    display: grid;
+    grid-template-columns: 20px max-content;
+    gap: 1rem;
+    top: 1px;
+  }
+
+  .logo {
+    margin-left: 1px;
+    margin-top: 35px;
+    text-decoration: none;
+  }
+
+  .logo:hover {
+    color: blueviolet;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #5e6c84;
+  }
+
   #karam3 {
     display: flex;
     flex-direction: row;
@@ -415,36 +448,4 @@ p {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.works_card,
-.works_card2,
-.works_card3,
-.works_card4 {
-  transition: all 0.2s ease-in-out;
-}
-
-.works_card:hover,
-.works_card2:hover,
-.works_card3:hover,
-.works_card4:hover {
-  transform: scale(1.1);
 }
