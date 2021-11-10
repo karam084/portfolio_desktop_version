@@ -133,22 +133,22 @@
             <span class="label">CSS</span>
             <span class="label">JavaScript</span>
           </div>
-          <button type="button">See Project</button>
+          <button type="button"class="see-project-button" id="Tonic">See Project</button>
         </div>
       </section>
 
       <section class="project">
         <img
           src="./src-image/Snapshoot-Portfolio2.png"
-          alt="Tonic project screenshot"
+          alt="Facebook 360 project screenshot"
           class="project-image"
         />
         <div class="project-body">
-          <h2 class="project-title">Tonic</h2>
+          <h2 class="project-title">Facebook 360</h2>
           <div class="project-details">
-            <span class="client-name">CANOPY</span>
+            <span class="client-name">FACEBOOK</span>
             <i class="fas fa-circle divider"></i>
-            <span class="client-details-other">Backend Dev</span>
+            <span class="client-details-other">Full Stack Dev</span>
             <i class="fas fa-circle divider"></i>
             <span class="client-details-other">2015</span>
           </div>
@@ -161,18 +161,45 @@
             <span class="label">CSS</span>
             <span class="label">JavaScript</span>
           </div>
-          <button type="button">See Project</button>
+          <button type="button" class="see-project-button" id="360">See Project</button>
         </div>
       </section>
 
       <section class="project">
         <img
-          src="./src-image/Snapshoot -portfolio3.png"
-          alt="Tonic project screenshot"
+          src="./src-image/Snapshoot-portfolio3.png"
+          alt="Uber Navigation project screenshot"
           class="project-image"
         />
         <div class="project-body">
-          <h2 class="project-title">Tonic</h2>
+          <h2 class="project-title">Uber Navigation</h2>
+          <div class="project-details">
+            <span class="client-name">UBER</span>
+            <i class="fas fa-circle divider"></i>
+            <span class="client-details-other">Lead Developer</span>
+            <i class="fas fa-circle divider"></i>
+            <span class="client-details-other">2018</span>
+          </div>
+          <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="project-technology">
+            <span class="label">HTML</span>
+            <span class="label">CSS</span>
+            <span class="label">JavaScript</span>
+          </div>
+          <button type="button" class="see-project-button" id="Uber">See Project</button>
+        </div>
+      </section>
+      <section class="project">
+        <img
+          src="./src-image/Snapshoot-Portfolio1.png"
+          alt="Uber Navigation project screenshot"
+          class="project-image"
+        />
+        <div class="project-body">
+          <h2 class="project-title">Multi purpose stories</h2>
           <div class="project-details">
             <span class="client-name">CANOPY</span>
             <i class="fas fa-circle divider"></i>
@@ -189,7 +216,7 @@
             <span class="label">CSS</span>
             <span class="label">JavaScript</span>
           </div>
-          <button type="button">See Project</button>
+          <button type="button" class="see-project-button" id="Stories">See Project</button>
         </div>
       </section>
     </section>
@@ -342,34 +369,43 @@
         </div>
       </section>
     </section>
-    <section class="works-content popup-button">
-      <img
-        src="./assets/images/project-01.jpg"
-        alt="Tonic project screenshot"
-        class="project-image"
-      />
-      <div class="project-body">
-        <h2 class="project-title">Tonic</h2>
-        <aside class="client-details">
-          <span class="client-name">CANOPY</span>
-          <i class="fas fa-circle divider"></i>
-          <span class="client-details-other">Backend Dev</span>
-          <i class="fas fa-circle divider"></i>
-          <span class="client-details-other">2015</span>
-        </aside>
-        <p class="project-details">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="project-stack">
-          <span class="label">HTML</span>
-          <span class="label">CSS</span>
-          <span class="label">JavaScript</span>
+    <div class="popup-window" id="popup">
+      <section class="popup">
+        <div class="popup-header">
+          <h2 class="popup-project-title" id="popup-project-title"></h2>
+          <span class="close">&times;</span>
         </div>
-        <button type="button">See Project</button>
-      </div>
+        <div class="popup-project-info" id="popup-project-info"></div>
+        <div id="popup-project-image-holder">
+          <img
+            src="#"
+            alt="Tonic project screenshot"
+            class="popup-project-image"
+            id="popup-project-image"
+          />
+        </div>
+        <div class="popup-project-details">
+          <div class="column-left">
+            <p
+              class="popup-project-description"
+              id="popup-project-description"
+            ></p>
+          </div>
+          <div class="column-right">
+            <div class="popup-project-stack" id="popup-project-stack"></div>
+            <div class="popup-project-buttons">
+              <button type="button" id="see-live-btn" onclick="">
+                See Live
+              </button>
+              <button type="button" id="see-source-btn" onclick="">
+                See Source
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     </section>
-
     <script src="./js/portfolio.js"></script>
   </body>
 </html>
