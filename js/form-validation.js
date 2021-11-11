@@ -1,4 +1,4 @@
-/*const form = document.getElementById('contact-form');
+/* const form = document.getElementById('contact-form');
 
 const validateEmail = (email) => {
   var emailRegex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
@@ -7,8 +7,8 @@ const validateEmail = (email) => {
   } else {
     return true;
   }
-};
-form.addEventListener('submit', (event) => {
+}; */
+/* form.addEventListener('submit', (event) => {
   // stop form submission
   event.preventDefault();
 
@@ -23,10 +23,10 @@ form.addEventListener('submit', (event) => {
     email.setCustomValidity('');
     form.submit();
   }
-});
+}); */
 
-//const form = document.getElementById('contact-form');
-form.addEventListener('submit', (event) => {
+// const form = document.getElementById('contact-form');
+/* form.addEventListener('submit', (event) => {
   // stop form submission
   event.preventDefault();
 });
@@ -40,9 +40,9 @@ const isEmailValid = (email) => {
   const re =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
-};
+}; */
 
-const checkEmail = () => {
+/* const checkEmail = () => {
   let valid = false;
   const email = emailEl.value.trim();
   if (!isRequired(email)) {
@@ -54,4 +54,4 @@ const checkEmail = () => {
     valid = true;
   }
   return valid;
-};*/
+}; */
