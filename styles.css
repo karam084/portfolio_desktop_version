@@ -93,6 +93,7 @@ body {
   display: flex;
   gap: 10px;
   padding: 0;
+  margin-top: 1px;
   font-size: 20px;
   padding-top: 0;
 }
@@ -161,7 +162,7 @@ body {
   font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: space-between;
   align-items: baseline;
-  width: 33%;
+  width: 45%;
 }
 
 .label {
@@ -516,7 +517,7 @@ ul.sub-list {
   line-height: 20px;
 }
 
-.see-live-btn {
+.see-live-btn1 {
   color: #6070ff;
   font-style: normal;
   font-weight: 500;
@@ -541,6 +542,14 @@ ul.sub-list {
     color: #7a869a;
   }
 
+  .project-technology {
+    display: flex;
+    font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 55%;
+  }
+
   .see-live-btn {
     color: #396df2;
     font-style: normal;
@@ -549,7 +558,7 @@ ul.sub-list {
     line-height: 20px;
   }
 
-  .see-live-btn {
+  .see-live-btn1 {
     color: #6070ff;
     font-style: normal;
     font-weight: 500;
