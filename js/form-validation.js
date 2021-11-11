@@ -30,27 +30,39 @@ form.addEventListener('submit', (event) => {
   // stop form submission
   event.preventDefault();
 });*/
+const form = document.getElementById('contact-form');
 const emailEl = document.querySelector('email');
+const emailError = document.querySelector('span.error');
+console.log(emailError);
 form.addEventListener('submit', (event) => {
   // prevent the form from submitting
   event.preventDefault();
+
+  const email = form.elements['email'];
+
+  if(!checkEmail(email)){
+    email.setCustomValidity(
+      'Please enter a valid email address and in lowercase letters.'
+    );
+    emailError.textContent = "Please enter a valid email address and in lowercase letters.";
+  } else {
+     email.setCustomValidity('');
+     emailError.textContent = ''; // Reset the content of the message
+     emailError.className = 'error'; // Reset the visual state of the message
+     form.submit();
+  }
+  console.log(email.checkValidity());
 });
 const isEmailValid = (email) => {
-  const re =
-    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
+  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+  return regex.test(email.value);
 };
 
-const checkEmail = () => {
-  let valid = false;
-  const email = emailEl.value.trim();
-  if (!isRequired(email)) {
-    showError(emailEl, 'Email cannot be blank.');
-  } else if (!isEmailValid(email)) {
-    showError(emailEl, 'Email is not valid.');
-  } else {
-    showSuccess(emailEl);
-    valid = true;
-  }
+const checkEmail = (email) => {
+  //console.log(isEmailValid(email));
+  let valid = true;
+  if (!isEmailValid(email)) {
+      valid = false;
+  } 
   return valid;
 };

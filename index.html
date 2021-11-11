@@ -339,7 +339,7 @@
               love to help with it
             </p>
           </div>
-          <form
+          <form novalidate
             action="https://formspree.io/f/xeqvdqoj"
             method="post"
             class="contact-form"
@@ -355,7 +355,6 @@
               required
             />
             <small></small>
-            <p>Please enter valid email address</p>
             <input
               class="form_input"
               type="email"
@@ -364,7 +363,7 @@
               placeholder="Email address"
               required
             />
-            <small></small>
+            <span class="error" aria-live="polite"></span>
             <textarea
               class="form_input"
               name="message"
