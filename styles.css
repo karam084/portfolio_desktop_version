@@ -724,9 +724,9 @@ p {
   animation-direction: alternate;
 }
 
-input:invalid{
+input:invalid {
   border-color: #900;
-  background-color: #FDD;
+  background-color: #fdd;
 }
 
 input:focus:invalid {
