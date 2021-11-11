@@ -27,9 +27,9 @@
       function gtag() {
         window.dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-KVX2JB45PK");
+      gtag('config', 'G-KVX2JB45PK');
     </script>
   </head>
   <body>
@@ -139,11 +139,6 @@
         </div>
       </section>
       <section class="project">
-        <img
-          src="./src-image/Snapshoot-Portfolio2.png"
-          alt="Facebook 360 project screenshot"
-          class="project-image"
-        />
         <div class="project-body">
           <h2 class="project-title">Facebook 360</h2>
           <div class="project-details">
@@ -166,6 +161,11 @@
             See Project
           </button>
         </div>
+        <img
+          src="./src-image/Snapshoot-Portfolio2.png"
+          alt="Facebook 360 project screenshot"
+          class="project-image"
+        />
       </section>
 
       <section class="project">
@@ -198,11 +198,6 @@
         </div>
       </section>
       <section class="project">
-        <img
-          src="./src-image/Snapshoot-Portfolio1.png"
-          alt="Uber Navigation project screenshot"
-          class="project-image"
-        />
         <div class="project-body">
           <h2 class="project-title">Multi purpose stories</h2>
           <div class="project-details">
@@ -225,6 +220,11 @@
             See Project
           </button>
         </div>
+        <img
+          src="./src-image/Snapshoot-Portfolio1.png"
+          alt="Uber Navigation project screenshot"
+          class="project-image"
+        />
       </section>
     </section>
     <section class="bottom-section">
@@ -294,19 +294,19 @@
               <ul class="sub-list">
                 <li class="skills">
                   <a href="#" class="language-logo">
-                    <img src="./assets/images/js.png" alt="Javascript" />
+                    <img src="./src-image/js-icon.png" alt="Javascript" />
                     <span>Javascript</span>
                   </a>
                 </li>
                 <li class="sub-list-item">
                   <a href="#" class="language-logo">
-                    <img src="./assets/images/html5.png" alt="HTML5" />
+                    <img src="./src-image/html-icon.png" alt="HTML5" />
                     <span>HTML</span>
                   </a>
                 </li>
                 <li class="sub-list-item">
                   <a href="#" class="language-logo">
-                    <img src="./assets/images/css3.png" alt="CCS3" />
+                    <img src="./src-image/css-icon.png" alt="CCS3" />
                     <span>CSS</span>
                   </a>
                 </li>
@@ -340,9 +340,10 @@
             </p>
           </div>
           <form
-            action="https://formspree.io/f/xnqlyrdg"
+            action="https://formspree.io/f/xeqvdqoj"
             method="post"
             class="contact-form"
+            id="contact-form"
           >
             <input
               class="form_input"
@@ -353,6 +354,8 @@
               placeholder="Fullname"
               required
             />
+            <small></small>
+            <p>Please enter valid email address</p>
             <input
               class="form_input"
               type="email"
@@ -361,6 +364,7 @@
               placeholder="Email address"
               required
             />
+            <small></small>
             <textarea
               class="form_input"
               name="message"
@@ -413,5 +417,6 @@
       </section>
     </div>
     <script src="./js/portfolio.js"></script>
+    <script src="./js/form-validation.js"></script>
   </body>
 </html>
