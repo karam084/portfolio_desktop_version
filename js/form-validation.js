@@ -23,13 +23,14 @@ form.addEventListener('submit', (event) => {
     email.setCustomValidity('');
     form.submit();
   }
-});*/
+});
 
 //const form = document.getElementById('contact-form');
-/*form.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event) => {
   // stop form submission
   event.preventDefault();
-});*/
+});
+
 const emailEl = document.querySelector('#email');
 form.addEventListener('submit', (event) => {
   // prevent the form from submitting
@@ -53,4 +54,4 @@ const checkEmail = () => {
     valid = true;
   }
   return valid;
-};
+};*/
