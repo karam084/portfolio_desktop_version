@@ -37,9 +37,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
 });
 const isEmailValid = (email) => {
-  const re =
-    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
+  var emailRegex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;  return re.test(email);
 }; */
 
 /* const checkEmail = () => {
