@@ -22,9 +22,10 @@ form.addEventListener('submit', (event) => {
 
   if (!checkEmail(email)) {
     email.setCustomValidity(
-      'Please enter a valid email address and in lowercase letters.',
+      'Please enter a valid email address and in lowercase letters.'
     );
-    emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
+    emailError.textContent =
+      'Please enter a valid email address and in lowercase letters.';
   } else {
     email.setCustomValidity('');
     emailError.textContent = ''; // Reset the content of the message
