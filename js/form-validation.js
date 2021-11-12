@@ -1,15 +1,15 @@
 const form = document.getElementById('contact-form');
 const emailError = document.querySelector('span.error');
 const isEmailValid = (email) => {
-  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+  const regex = /^[a-z]+@[aA-zZ0-9-]+\.[a-z0-9-.]+$/;
   return regex.test(email.value);
 };
 
 const checkEmail = (email) => {
   // console.log(isEmailValid(email));
-  let valid = true;
+  let valid = false;
   if (!isEmailValid(email)) {
-    valid = false;
+    valid = true;
   }
   return valid;
 };
