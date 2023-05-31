@@ -364,6 +364,7 @@ ul.sub-list {
 
 .menu-overlay .hide-menu {
   transform: translateX(100%);
+  
 }
 
 .menu-close {

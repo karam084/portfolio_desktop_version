@@ -44,7 +44,7 @@ const getProjectDetails = (project) => {
       name: 'Uber Navigation',
       details: ['Uber', 'Lead Developer', '2018'],
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting'
+        /*'Lorem Ipsum is simply dummy text of the printing and typesetting'
         + "industry. Lorem Ipsum has been the industry's standard dummy text"
         + 'ever since the 1500s, when an unknown printer took a galley of type'
         + 'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
@@ -52,7 +52,17 @@ const getProjectDetails = (project) => {
         + "the industry's standard dummy text ever since the 1500s, when an"
         + 'unknown printer took a galley of type and scrambled it 1960s with'
         + 'the releorem Ipsum is simply dummy text of the printing and'
-        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',
+        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',*/
+        `Lorem Ipsum is simply dummy text of the printing and typesetting'
+         "industry. Lorem Ipsum has been the industry's standard dummy text"
+         'ever since the 1500s, when an unknown printer took a galley of type'
+         'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
+         'text of the printing and typesetting industry. Lorem Ipsum has been'
+         "the industry's standard dummy text ever since the 1500s, when an"
+         'unknown printer took a galley of type and scrambled it 1960s with'
+         'the releorem Ipsum is simply dummy text of the printing and'
+         'typesetting industry. Lorem Ipsum han printer took a galley of type`,
+
       image:
         '<img src="./src-image/Snapshoot-portfolio3.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
