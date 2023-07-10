@@ -1,20 +1,16 @@
 ![](https://github.com/karam084/portfolio_desktop_version/tree/portfolio-application-deploy)
 
-# Project Name
-
-portfolio-application-deploy
-
-> One paragraph statement about the project.
+# portfolio
 
 ![screenshot](/home/kezz/karam/Microverse Projects/desktop_version/screenshot/screenshot.odt)
 
-Additional description about the project and its features.
+Additional description of the project and its features.
 
 ## Built With
 
-- html and css
-- Figma framewor
-- Visual studio and github
+- HTML and CSS
+- Figma framework
+- Visual Studio and GitHub
 
 ## Live Demo
 
@@ -24,13 +20,7 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **Author**
 
 - GitHub: [@karam084](https://github.com/karam084)
 - Twitter: [@ElarabFouad](https://twitter.com/ElarabFouad)
